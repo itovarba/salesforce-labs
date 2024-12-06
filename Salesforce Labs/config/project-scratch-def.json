@@ -1,13 +1,19 @@
 {
-  "orgName": "itovarba company",
+  "orgName": "itovarba labs",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "features": ["Communities", "ServiceCloud", "Chatbot"],
   "settings": {
-    "lightningExperienceSettings": {
-      "enableS1DesktopEnabled": true
-    },
-    "mobileSettings": {
-      "enableS1EncryptedStoragePref2": false
-    }
+    "communitiesSettings": {
+          "enableNetworksEnabled": true
+      },
+      "mobileSettings": {
+          "enableS1EncryptedStoragePref2": true
+      },
+      "omniChannelSettings": {
+          "enableOmniChannel": true
+      },
+      "caseSettings": {
+          "systemUserEmail": "support@acme.com"
+      }
   }
 }
