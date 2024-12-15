@@ -1,7 +1,7 @@
 {
   "orgName": "itovarba labs",
   "edition": "Developer",
-  "features": ["Communities", "ServiceCloud", "Chatbot"],
+  "features": ["Communities", "ServiceCloud"],
   "settings": {
     "communitiesSettings": {
           "enableNetworksEnabled": true
