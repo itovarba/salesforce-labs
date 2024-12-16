@@ -3,6 +3,43 @@
     {
       "path": "force-app",
       "default": true
+    },
+    {
+      "path": "packages/packageDM",
+      "package": "packageDM",
+      "versionName": "Package DM 0.1.0",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false
+    },
+    {
+      "path": "packages/packageBack",
+      "package": "packageBack",
+      "versionName": "Package Back 0.1.0",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false, 
+      "dependencies": [
+        {
+          "package": "packageDM",
+          "versionNumber": "0.1.0.LATEST"
+        }
+      ]
+    },
+    {
+      "path": "packages/packageFront",
+      "package": "packageFront",
+      "versionName": "Package Front 0.1.0",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false, 
+      "dependencies": [
+        {
+          "package": "packageDM",
+          "versionNumber": "0.1.0.LATEST"
+        },
+        {
+          "package": "packageBack",
+          "versionNumber": "0.1.0.LATEST"
+        }
+      ]
     }
   ],
   "name": "Salesforce Labs",
