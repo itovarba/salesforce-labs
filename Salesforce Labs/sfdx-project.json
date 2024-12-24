@@ -5,18 +5,20 @@
       "default": true
     },
     {
-      "path": "packages/packageDM",
-      "package": "packageDM",
-      "versionName": "Package DM 0.1.0",
+      "versionName": "ver 0.1",
       "versionNumber": "0.1.0.NEXT",
-      "default": false
+      "path": "packages/packageDM",
+      "default": false,
+      "package": "packageDM",
+      "versionDescription": ""
     },
     {
-      "path": "packages/packageBack",
-      "package": "packageBack",
-      "versionName": "Package Back 0.1.0",
+      "versionName": "ver 0.1",
       "versionNumber": "0.1.0.NEXT",
-      "default": false, 
+      "path": "packages/packageBack",
+      "default": false,
+      "package": "packageBack",
+      "versionDescription": "",
       "dependencies": [
         {
           "package": "packageDM",
@@ -25,11 +27,12 @@
       ]
     },
     {
-      "path": "packages/packageFront",
-      "package": "packageFront",
-      "versionName": "Package Front 0.1.0",
+      "versionName": "ver 0.1",
       "versionNumber": "0.1.0.NEXT",
-      "default": false, 
+      "path": "packages/packageFront",
+      "default": false,
+      "package": "packageFront",
+      "versionDescription": "",
       "dependencies": [
         {
           "package": "packageDM",
@@ -45,5 +48,13 @@
   "name": "Salesforce Labs",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "62.0"
+  "sourceApiVersion": "62.0",
+  "packageAliases": {
+    "packageDM": "0HoWU0000000POD0A2",
+    "packageBack": "0HoWU0000000PPp0AM",
+    "packageFront": "0HoWU0000000PRR0A2",
+    "packageDM@0.1.0-3": "04tWU0000004U2jYAE",
+    "packageBack@0.1.0-1": "04tWU0000004U5xYAE",
+    "packageFront@0.1.0-1": "04tWU0000004U7ZYAU"
+  }
 }
